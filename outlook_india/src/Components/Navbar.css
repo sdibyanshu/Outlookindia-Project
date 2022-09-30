@@ -43,15 +43,7 @@ a,a:hover{
 .searchText:focus{
     outline: none;   
 }
-/* .searchBtn{
-    width: 2rem;
-    background-color: grey;
-    color: white;
-    position: absolute;
-    display: grid;
-    place-items: center;
-    border-radius: 100%;
-} */
+
 .searchBox:hover>.searchText{
 
         border: 1px solid black;
@@ -62,10 +54,7 @@ a,a:hover{
         border-radius: 4px;
     
 }
-/* .searchBox:hover>.searchBtn{
-    background: #fff;
-    color: grey;
-} */
+
 
 #hrtag{
     border-top: 1px solid red;
