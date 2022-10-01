@@ -15,9 +15,12 @@ function Navbarg() {
             <Box width="100%" border='1px solid transparent'>
                 <Image mt="45px" m="auto" src='https://tpc.googlesyndication.com/simgad/7117080034950156774' alt='Dan Abramov' />
             </Box>
-            <Box w="30%" h="90px" m="auto" mt="10px" border='1px solid transparent'>
-                <Image mt="45px" m="auto" mb="9px" src='https://www.outlookindia.com/images/home_new_v4/logo_outlook.svg' alt='Dan Abramov' />
+            <Box w="25%" h="90px" m="auto" mt="10px" border='1px solid transparent'>
+                
              
+                <Link to="/" ><Button border="none" color="grey" colorScheme="none"  borderRadius="30px" > <Image mt="45px" m="auto" mb="9px" src='https://www.outlookindia.com/images/home_new_v4/logo_outlook.svg' alt='Dan Abramov' /></Button></Link>
+
+
                 <Link to="/Register" ><Button border="none" color="grey" colorScheme="none"  borderRadius="30px" >LOGIN | SUBSCRIBE</Button></Link>
              
             </Box>

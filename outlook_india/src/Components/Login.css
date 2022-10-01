@@ -1,0 +1,41 @@
+#login1{
+    /* border: 1px solid black; */
+    width: 40%;
+    height: 200px;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 2px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+  }
+  
+  
+  #login1>input[type=email],input[type=password], select {
+    width: 80%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  #sub{
+    width: 80%;
+    background-color:black;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+  }
+  
+  #submit:hover {
+    background-color: #45a049;
+  }
+  
+  
+  
+  
