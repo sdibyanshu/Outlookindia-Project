@@ -9,33 +9,54 @@ import Login from './Login';
 
 
 
+
 function Navbarg() {
-    return (
-        <>
-            <Box width="100%" border='1px solid transparent'>
-                <Image mt="45px" m="auto" src='https://tpc.googlesyndication.com/simgad/7117080034950156774' alt='Dan Abramov' />
-            </Box>
-            <Box w="25%" h="90px" m="auto" mt="10px" border='1px solid transparent'>
-                
-             
-                <Link to="/" ><Button border="none" color="grey" colorScheme="none"  borderRadius="30px" > <Image mt="45px" m="auto" mb="9px" src='https://www.outlookindia.com/images/home_new_v4/logo_outlook.svg' alt='Dan Abramov' /></Button></Link>
 
+    // const Date = () => {
+    //      Date()
+    //   }
 
-                <Link to="/Register" ><Button border="none" color="grey" colorScheme="none"  borderRadius="30px" >LOGIN | SUBSCRIBE</Button></Link>
-             
-            </Box>
+  return(
+     <>
+        <Box width="100%" border='1px solid transparent'>
+            <Image mt="45px" m="auto" src='https://tpc.googlesyndication.com/simgad/7117080034950156774' alt='Dan Abramov' />
+        </Box>
 
-            <div>
-            {/* <Link to="/Register" ><Button>Register</Button></Link> */}
-                {/* <a href="/Register">register</a> */}
-               
+      <div id='datesmalllogo'>
 
-               
+            <div>{Date()}</div>
+              
+
+          <div id="smallicon">
+              <div>
+              <img src="https://www.outlookindia.com/images/home_new_v4/facebook_top.svg"   alt="" />
+              </div>
+              
+             <div>
+             <img src="https://www.outlookindia.com/images/home_new_v4/twitter_top.svg" alt="" />
+             </div>
+           
+              <div>
+              <img src="https://www.outlookindia.com/images/home_new_v4/instagram_top.svg" alt="" />
+              </div>
+           
+             <div>
+             <img src="https://www.outlookindia.com/images/home_new_v4/youtube_top.svg" alt="" />
+             </div>
+         </div>
           
-               {/* <Link to="/Register"> <Button className="loginbtn" border="solid" color="black" colorScheme="none" mt="18px" ml="60px" borderRadius="30px">
-               Register
-              </Button></Link> */}
-           </div>
+      </div>
+
+            <Box w="17%" h="90px" m="auto" mt="10px" border='1px solid transparent'>
+
+                <Link to="/"><Button id="logo1btn"  > <Image border='1px solid transparent'  src='https://www.outlookindia.com/images/home_new_v4/logo_outlook.svg' alt='Dan Abramov' /></Button></Link>
+
+               
+               <Link exact to="/Register" ><Button id="subscribebtn" border="none" color="grey" colorScheme="none" >LOGIN | SUBSCRIBE</Button></Link>
+               
+            </Box>
+
+     
 
             <div className='flex' >
                 <div  ><a href="index.html">OUTLOOK </a></div>
