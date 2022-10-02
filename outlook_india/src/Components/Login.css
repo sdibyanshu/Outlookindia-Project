@@ -1,18 +1,26 @@
 #login1{
     /* border: 1px solid black; */
     width: 40%;
-    height: 200px;
+    height: 300px;
     margin: auto;
     margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 30px;
     border-radius: 2px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     
   }
+  #login1>h1{
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+  
+  }
   
   
   #login1>input[type=email],input[type=password], select {
-    width: 80%;
-    padding: 12px;
+    width: 100%;
+    padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
     border: 1px solid #ccc;
@@ -21,14 +29,14 @@
   }
   
   #sub{
-    width: 80%;
-    background-color:black;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
+    width: 100%;
+  background-color: black;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
     
   }
   

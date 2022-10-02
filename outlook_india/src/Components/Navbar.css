@@ -202,4 +202,33 @@ a,a:hover{
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
  }
- 
+ #logo1btn{
+   width: 100%;
+   background-color: white;
+  
+ }
+ #subscribebtn{
+   width: 100%;
+   border: 1px solid transparent;
+ }
+ #datesmalllogo{
+   border: 1px solid transparent;
+   width: 100%;
+   height: 50px;
+   display: flex;
+   margin-top: 10px;
+   justify-content: space-between;
+ }
+ #smallicon{
+   display: flex;
+   justify-content: space-between;
+ }
+ #smallicon>div{
+   border: 1px solid transparent;
+   /* margin: auto; */
+   margin-right: 20px;
+   width: 30px;
+ }
+ #smallicon>div>img{
+   width: 100%;
+ }
